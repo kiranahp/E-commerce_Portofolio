@@ -1,0 +1,328 @@
+/* --------HEADER-----------*/
+#img-logo {
+    width: 40%;
+    min-width: 250px;
+    height: auto;
+}
+
+.icon-bar {
+    width: 100%;
+}
+
+.icon-bar a {
+    float: right;
+    text-align: center;
+    color: #ee6e73;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.label-icon{
+    padding-right :10px;}
+
+/* ------MENU BAR------- */
+.topnav {
+    overflow: hidden;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: #ee6e73;
+  }
+
+.geserNav {
+    margin-left: 370px;
+}
+  
+.topnav a {
+    float: left;
+    color: #ee6e73;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+/* ----------CAROUSEL-------------- */
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+}
+
+/* -------COLLECTIONS-------- */
+
+*{
+	padding:0;
+	margin:0;
+    -webkit-transition: 1s;
+    transition: 1s;
+    
+}
+.GalCol{
+    margin-left: 47px;
+    margin-right: 19px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.clrd-font{
+	background: #FF512F;
+	background: -webkit-linear-gradient(to right, #ee6e73, #FF512F);
+	background: linear-gradient(to right, #ee6e73, #FF512F);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.btn-primary {
+	background-color:transparent;
+	color: #fff;
+	border: 2px solid #fff;
+	font-size:20px;
+	text-transform: uppercase;
+	border-radius: 0px;	
+}
+.btn-primary:hover {
+	background-color:transparent;
+	border-color: #ee6e73;
+	color: #ee6e73;
+	border-radius: 20px;
+}
+
+.single_portfolio_text{
+	display:inline-block;
+	padding:0;
+	position:relative;
+	overflow:hidden;
+}
+.single_portfolio_text img{
+	width: 90%;
+}
+
+.single_portfolio_text:hover .portfolio_images_overlay{
+	top:5%;
+	left: 5%;
+}
+
+.portfolio_images_overlay{
+	width: 90%;
+	height: 90%;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	margin: 0 auto;
+	top: -100%;
+	left: 5%;
+	position: absolute;
+	transition:.6s;
+	
+}
+.portfolio_images_overlay h6{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 900;
+	border: 2px solid #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+/* ---------FOOTER------------ */
+.page-footer {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: #ee6e73;
+    color: #ee6e73;
+}
+.warnaLink{color:  #ee6e73;}
+.footer-copyright{color:black}
+
+/* --------SIDE NAV--------- */
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F18B8E;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f1f1f1;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color:#818181 ;
+  }
+
+.GeserSide{
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+
+/* -------AKUN FORM--------- */
+.formAkun{
+    height:100vh;
+	min-height:550px;
+	background-image: url(http://www.planwallpaper.com/static/images/Free-Wallpaper-Nature-Scenes.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+	position:relative;
+    overflow-y: hidden;
+}
+.formAkun a {
+        text-decoration:none;
+        color:#444444;
+}
+.login-reg-panel{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+	text-align:center;
+    width:70%;
+	right:0;left:0;
+    margin:auto;
+    height:400px;
+    background-color: rgb(231, 76, 81);
+}
+.white-panel{
+    background-color: rgba(255,255, 255, 1);
+    height:500px;
+    position:absolute;
+    top:-50px;
+    width:50%;
+    right:calc(50% - 50px);
+    transition:.3s ease-in-out;
+    z-index:0;
+    box-shadow: 0 0 15px 9px #00000096;
+}
+.login-reg-panel input[type="radio"]{
+    position:relative;
+    display:none;
+}
+.login-reg-panel{
+    color:#B8B8B8;
+}
+.login-reg-panel #label-login, 
+.login-reg-panel #label-register{
+    border:1px solid #9E9E9E;
+    padding:5px 5px;
+    width:150px;
+    display:block;
+    text-align:center;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight: 600;
+    font-size: 18px;
+}
+.login-info-box{
+    width:30%;
+    padding:0 25px;
+    top:20%;
+    left:0;
+    position:absolute;
+    text-align:left;
+}
+.register-info-box{
+    width:30%;
+    padding:0 25px;
+    top:20%;
+    right:0;
+    position:absolute;
+    text-align:left;
+    
+}
+.right-log{right:50px !important;}
+
+.login-show, 
+.register-show{
+    z-index: 1;
+    display:none;
+    opacity:0;
+    transition:0.1s ease-in-out;
+    color:#242424;
+    text-align:left;
+    padding:50px;
+}
+.show-log-panel{
+    display:block;
+    opacity:0.9;
+}
+.login-show input[type="text"], .login-show input[type="password"]{
+    width: 100%;
+    display: block;
+    margin:20px 0;
+    padding: 15px;
+    border: 1px solid #b5b5b5;
+    outline: none;
+}
+.login-show input[type="button"] {
+    max-width: 150px;
+    width: 100%;
+    background: #444444;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    float:right;
+    cursor:pointer;
+}
+.login-show a{
+    display:inline-block;
+    padding:10px 0;
+}
+
+.register-show input[type="text"], .register-show input[type="password"]{
+    width: 100%;
+    display: block;
+    margin:10px 0;
+    padding: 10px;
+    border: 1px solid #b5b5b5;
+    outline: none;
+}
+.register-show input[type="button"] {
+    max-width: 150px;
+    width: 100%;
+    background: #444444;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    float:right;
+    cursor:pointer;
+    margin-top: 20px;
+}
+.credit {
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    color: #3B3B25;
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    z-index: 99;
+}
+
+/* -------PAYMENT CONFIRMATION--------- */
+.colorBack{
+    background-color: #ee6e73;
+}
